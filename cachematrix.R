@@ -1,5 +1,6 @@
 ## These functions allow a matrix inverse to be cached alongside the matrix so
 ## it can be recalled instead of calculated repeatedly
+## Created 4/25/2014 by Tristan Markwell based on in-class example using mean
 
 ## makeCacheMatrix creates a list of functions that enable the cacheSolve function
 ## to get the cached value of the inverse (if available) or calculate and cache
